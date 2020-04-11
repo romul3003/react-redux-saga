@@ -2,21 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="efcf9898-0987-434c-a136-cf601f84e0ce" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.eslintrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.prettierrc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/FetchedPosts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Post.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/PostForm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Posts.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,11 +19,20 @@
       <executable />
     </execution>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1aOd9rN6WlvL85uQ34WVW108yQY" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -51,6 +51,7 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="prettierjs.PrettierConfiguration.Package" value="D:\front-end\2020\react\react-redux-saga\node_modules\prettier" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -83,6 +84,8 @@
       <option name="presentableId" value="Default" />
       <updated>1586610425176</updated>
       <workItem from="1586610426789" duration="1777000" />
+      <workItem from="1586612373496" duration="149000" />
+      <workItem from="1586612542707" duration="1970000" />
     </task>
     <servers />
   </component>
@@ -94,21 +97,29 @@
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state x="219" y="271" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1160/1920.258.1920.1040@0.0.1920.1160" timestamp="1586611748526" />
-    <state width="1046" height="307" key="GridCell.Tab.0.bottom" timestamp="1586612207634">
+    <state x="219" y="312" key="EditFileWatcherDialog" timestamp="1586612501921">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state width="1046" height="307" key="GridCell.Tab.0.bottom/0.0.1920.1160/1920.258.1920.1040@0.0.1920.1160" timestamp="1586612207634" />
-    <state width="1046" height="307" key="GridCell.Tab.0.center" timestamp="1586612207633">
+    <state x="219" y="312" key="EditFileWatcherDialog/0.0.1920.1160/1920.258.1920.1040@0.0.1920.1160" timestamp="1586612501921" />
+    <state width="1046" height="307" key="GridCell.Tab.0.bottom" timestamp="1586612556668">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state width="1046" height="307" key="GridCell.Tab.0.center/0.0.1920.1160/1920.258.1920.1040@0.0.1920.1160" timestamp="1586612207633" />
-    <state width="1046" height="307" key="GridCell.Tab.0.left" timestamp="1586612207633">
+    <state width="1046" height="307" key="GridCell.Tab.0.bottom/0.0.1920.1160/1920.258.1920.1040@0.0.1920.1160" timestamp="1586612556668" />
+    <state width="1046" height="307" key="GridCell.Tab.0.center" timestamp="1586612556668">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state width="1046" height="307" key="GridCell.Tab.0.left/0.0.1920.1160/1920.258.1920.1040@0.0.1920.1160" timestamp="1586612207633" />
-    <state width="1046" height="307" key="GridCell.Tab.0.right" timestamp="1586612207633">
+    <state width="1046" height="307" key="GridCell.Tab.0.center/0.0.1920.1160/1920.258.1920.1040@0.0.1920.1160" timestamp="1586612556668" />
+    <state width="1046" height="307" key="GridCell.Tab.0.left" timestamp="1586612556667">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state width="1046" height="307" key="GridCell.Tab.0.right/0.0.1920.1160/1920.258.1920.1040@0.0.1920.1160" timestamp="1586612207633" />
+    <state width="1046" height="307" key="GridCell.Tab.0.left/0.0.1920.1160/1920.258.1920.1040@0.0.1920.1160" timestamp="1586612556667" />
+    <state width="1046" height="307" key="GridCell.Tab.0.right" timestamp="1586612556668">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state width="1046" height="307" key="GridCell.Tab.0.right/0.0.1920.1160/1920.258.1920.1040@0.0.1920.1160" timestamp="1586612556668" />
+    <state x="0" y="141" key="SettingsEditor" timestamp="1586612505097">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="0" y="141" key="SettingsEditor/0.0.1920.1160/1920.258.1920.1040@0.0.1920.1160" timestamp="1586612505097" />
   </component>
 </project>
