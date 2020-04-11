@@ -11,6 +11,16 @@ class PostForm extends Component {
 
   submitHandler = (event) => {
     event.preventDefault()
+
+    const { title } = this.state
+
+    // eslint-disable-next-line no-unused-vars
+    const newPost = {
+      title,
+      id: Date.now().toString(),
+    }
+
+    this.setState({ title: '' })
   }
 
   changeInputHandler = (event) => {
