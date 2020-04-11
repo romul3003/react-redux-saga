@@ -1,4 +1,6 @@
 import React, { Component } from 'react'
+import { connect } from 'react-redux'
+import { createPost } from '../redux/actions'
 
 class PostForm extends Component {
   constructor(props) {
@@ -14,11 +16,14 @@ class PostForm extends Component {
 
     const { title } = this.state
 
-    // eslint-disable-next-line no-unused-vars
+    if (!title.trim()) return
+
     const newPost = {
       title,
       id: Date.now().toString(),
     }
+
+    this.props.createPost(newPost)
 
     this.setState({ title: '' })
   }
@@ -50,4 +55,8 @@ class PostForm extends Component {
   }
 }
 
-export default PostForm
+const mapDispatchToProps = {
+  createPost,
+}
+
+export default connect(null, mapDispatchToProps)(PostForm)
